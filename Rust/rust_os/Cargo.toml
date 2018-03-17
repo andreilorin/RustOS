@@ -1,0 +1,14 @@
+[package]
+name = "rust_os"
+version = "0.1.0"
+authors = ["Andrei <andreilorin@gmail.com>"]
+
+[dependencies]
+rlibc = "1.0"
+volatile = "0.2.3"
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
