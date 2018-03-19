@@ -7,4 +7,5 @@ bootimage --target x86_64-rust_os
 // run boot image inside emulator
 qemu-system-x86_64 -drive format=raw,file=bootimage.bin
 
-
+// dependencies to install in linux before starting the tutorial
+// more info in bookmarks: OS/RustOS
